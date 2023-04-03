@@ -220,7 +220,12 @@ def reg(message):
     print(message_to_save)
 def reg_2(message):
     bot.send_message(message.chat.id, 'КП зарегистрирована')
+
+
+    
 ################################################################################################################################
+#Вот отсюда перестал работать. Не пойму почему. Писал те же самые команды. Бот обрабатывает команды, но не отвечает:(
+
 @bot.message_handler(commands=['start_team'])
 def start_tm(message):
     bot.send_message(message.chat.id, 'Команда вызвана') #посмотреть
